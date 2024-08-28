@@ -88,7 +88,6 @@ mdurl==0.1.2
 mistune==3.0.2
 mmcls==0.25.0
 mmcv-full==1.4.0
--e git+ssh://git@github.com/zgchen33/MCGaze.git@61950c878dcb4f58675863dcbf0693b5311d2743#egg=mmdet
 mmengine==0.10.4
 -e git+https://github.com/open-mmlab/mmtracking@e79491ec8f0b8c86fda947fbaaa824c66ab2a991#egg=mmtrack
 motmetrics==1.4.0
