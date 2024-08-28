@@ -1,10 +1,10 @@
 import sys
-sys.path.insert(0,'/data/yrguan/gaze/code/MCgaze/MCGaze_demo/yolo_head')
+sys.path.insert(0,'MCgaze/MCGaze_demo/yolo_head')
 from yolo_head.detect import det_head
 ## 构建字典，遍历每张图片
 import cv2
 import os
-cap = cv2.VideoCapture('/data/yrguan/gaze/code/MCgaze/MCGaze_demo/video_1.mp4')
+cap = cv2.VideoCapture('MCgaze/MCGaze_demo/video_1.mp4')
 
 def delete_files_in_folder(folder_path):
     # 检查文件夹是否存在
